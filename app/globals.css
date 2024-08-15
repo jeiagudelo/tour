@@ -1,0 +1,261 @@
+
+
+/* Contenedor pagina somos */
+.about-us-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+.about-us-header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.about-us-header h1 {
+    font-size: 2.5rem;
+    color: #333;
+}
+
+.about-us-header p {
+    font-size: 1.2rem;
+    color: #666;
+}
+
+.about-us-content {
+    margin-bottom: 40px;
+}
+
+.about-us-content h2 {
+    font-size: 2rem;
+    color: #333;
+    border-bottom: 2px solid #333;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.about-us-content p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #444;
+    margin-bottom: 20px;
+}
+
+.team-section {
+    margin-top: 40px;
+}
+
+.team-section h2 {
+    font-size: 2rem;
+    color: #333;
+    border-bottom: 2px solid #333;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.team-member {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fff;
+}
+
+.team-member h3 {
+    font-size: 1.5rem;
+    color: #333;
+    margin: 0;
+}
+
+.team-member p {
+    font-size: 1rem;
+    color: #666;
+    margin: 0;
+}
+
+.team-member + .team-member {
+    margin-top: 15px;
+}
+
+
+
+/* Contenedor principal de la página de destinos */
+.destinos-page-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+.header {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #f1f1f1;
+    border-bottom: 2px solid #070708;
+    margin-bottom: 20px;
+}
+
+.header h1 {
+    font-size: 2.5rem;
+    color: #333;
+    margin: 0;
+}
+
+.header p {
+    font-size: 1.2rem;
+    color: #666;
+}
+
+
+.destinations-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.destination-card {
+    width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.destination-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.destination-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    display: block;
+}
+
+.destination-content {
+    padding: 15px;
+}
+
+.destination-content h3 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-top: 0;
+}
+
+.destination-content p {
+    font-size: 1rem;
+    color: #666;
+    line-height: 1.5;
+    margin-top: 10px;
+}
+
+
+
+
+/* reserva */
+
+.reserva-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.reserva-title {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+}
+
+.reserva-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.reserva-label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #555;
+}
+
+.reserva-input,
+.reserva-select,
+.reserva-textarea {
+    margin-bottom: 15px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.reserva-input:focus,
+.reserva-select:focus,
+.reserva-textarea:focus {
+    border-color: #66afe9;
+    outline: none;
+    box-shadow: 0 0 8px rgba(102, 175, 233, 0.6);
+}
+
+.reserva-textarea {
+    resize: vertical;
+}
+
+.reserva-submit {
+    padding: 10px;
+    font-size: 18px;
+    color: #fff;
+    background-color:#6c757d;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.reserva-submit:hover {
+    background-color: #5a6268;
+}
+
+
+/* Estilos para el fondo */
+.fondo {
+    background-color: #9da8b1;
+    
+  }
+  
+  /* Estilos para el banner */
+  .banner2 {
+
+    background-size: cover;
+    background-position: center;
+    color: #0a0b0b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px; 
+    text-align: center;
+    position: relative;
+  }
+  
+  
+  
+  .banner2 h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+  
+  .banner2 p {
+    font-size: 20px;
+    margin-bottom: 30px;
+  }
+  
